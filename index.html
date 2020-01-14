@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tynianov</title>
+    <script src="script.js" type="application/javascript"></script>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://rawgit.com/geocodezip/geoxml3/master/polys/geoxml3.js"></script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSH4_2wgTRMF2LB6jpZeN70za-J8A1tmk&callback=initMap">
+    </script>
+</head>
+<body onload="init()">
+    <div class="container">
+        <div id="map"></div>
+        <input id="fileInput" type="file" name="file" accept=".kml"/>
+        <pre id="fileContent"></pre>
+    </div>
+</body>
+</html>

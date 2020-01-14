@@ -1,0 +1,16 @@
+#map{
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+
+#fileInput{
+    padding-top: 20px;
+}
+
+.container{
+    display: block;
+    text-align: center;
+}
